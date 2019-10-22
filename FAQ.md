@@ -11,7 +11,7 @@ Find information for common problems or questions.
     ```bash
     5-Deploy ingress  (bash ./deploy_ingress_dns.sh -s ./test_fetch_build -l westus2 -n teamdcaro04)
     Upgrading tiller (helm server) to match client version.
-    $HELM_HOME has been configured at /home/azureuser/.helm.
+    $HELM_HOME has been configured at /home/zhaw/.helm.
     Error: tiller was not found. polling deadline exceeded
     ```
 

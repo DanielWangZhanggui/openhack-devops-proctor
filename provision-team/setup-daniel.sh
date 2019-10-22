@@ -262,10 +262,10 @@ echo "16-Check services (# bash ./service_check.sh -d ${dnsURL} -n ${teamName}${
 bash ./service_check.sh -d ${dnsURL} -n ${teamName}${teamNumber}
 
 echo "17-Clean the working environment"
-bash ./cleanup_environment.sh -t ${teamName}${teamNumber} -p $zipPassword
+#bash ./cleanup_environment.sh -t ${teamName}${teamNumber} -p $zipPassword
 
 echo "18-Expose the team settings on a website"
-bash ./run_nginx.sh
+#bash ./run_nginx.sh
 
 #This line is not valid when using a self-provisioning.
 if [ "${chatConnectionString}" == "null" ] && [ "${chatMessageQueue}" == "null" ]; then
