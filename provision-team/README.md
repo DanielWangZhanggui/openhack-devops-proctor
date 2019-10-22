@@ -23,7 +23,10 @@ The required pre-requisites for installing a team environment are installed as p
 
 An example command to provision with a random team number:
 
-`nohup ./setup.sh -i <subscriptionId> -l eastus -n devopsoh >devopoh-random.out &`
+Daniel's sample: 
+`./setup.sh -i 77bbb887-5daa-4b0b-acf6-46f07353c2cf  -l eastus -n devopsoh -e 2`
+
+>`nohup ./setup.sh -i <subscriptionId> -l eastus -n devopsoh >devopoh-random.out &`
 
 An example command to provision with a specific team number:
 
